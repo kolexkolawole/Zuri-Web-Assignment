@@ -50,10 +50,152 @@ header a {
   text-decoration: none;
 }
 
-.ingressive {
+.gain {
+  margin: 15% 4%;
   display: flex;
 }
 
+.gain1,
+.gain3 {
+  width: 25% !important;
+  background-color: rgb(255, 253, 245);
+}
+
+.gain2 {
+  width: 50% !important;
+}
+
+#lady {
+  width: 125%;
+}
+
+#dude {
+  width: 110% !important;
+}
+
+#now {
+  color: #e7332b;
+  font-family: Graphik, sans-serif !important;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 130% !important;
+  text-align: center !important;
+}
+
+#gain {
+  color: #1b1a20 !important;
+  font-family: Graphik, sans-serif !important;
+  font-size: 49px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 110% !important;
+  padding-top: 10px !important;
+  text-align: center !important;
+}
+
+#gain-fancy {
+  display: flex;
+  justify-content: right;
+  margin-right: 20%;
+  margin-bottom: 28px;
+}
+
+#basic {
+  color: #1b1a20 !important;
+  font-family: Graphik, sans-serif !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 130% !important;
+  /* letter-spacing: 0.00938em; */
+  margin: auto !important;
+  padding-bottom: 40px !important;
+  text-align: center !important;
+  width: 68% !important;
+}
+
+.enroll {
+  display: flex;
+  justify-content: center;
+}
+#enroll {
+  background-color: #e7332b;
+  padding: 10px 32px !important;
+  font-family: Graphik, sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 24px;
+  border: solid 1px #e7332b;
+  border-radius: 71px;
+}
+
+.boy-wire {
+  display: flex;
+  justify-content: center;
+  margin: auto -25% auto auto;
+}
+
+#male-face {
+  margin-left: 33px;
+  margin-top: -141px !important;
+  max-width: 1440px !important;
+  position: absolute;
+  width: 54px !important;
+}
+
+.section1 {
+  margin-bottom: -10%;
+}
+
+.divider {
+  margin: 0% 4%;
+}
+
+.section2 {
+}
+
+.ingressive {
+  display: flex;
+  margin: 5% 4%;
+}
+
+.ingressive1 {
+  color: #1b1a20 !important;
+  font-family: Graphik, sans-serif !important;
+  font-size: 24px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 130% !important;
+  padding-top: 0 !important;
+  text-align: inherit !important;
+  text-transform: uppercase !important;
+  width: 33.33333%;
+}
+
+.ingressive2 {
+  width: 33.333333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#powered {
+  margin: -12% auto auto 13%;
+}
+.ingressive3 {
+  width: 33.333333%;
+  color: #1b1a20 !important;
+  font-family: Graphik, sans-serif !important;
+  font-size: 24px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 130% !important;
+  padding-bottom: 40px !important;
+  padding-top: 0 !important;
+  text-align: right !important;
+  /* width: 100%; */
+}
 .split {
   display: flex;
 }
@@ -142,4 +284,53 @@ header a {
   /* margin: 20px; */
   /* margin-left: 20px; */
   margin: auto;
+}
+
+.circle1 {
+  display: flex !important;
+  margin-bottom: 27px;
+  width: 10% !important;
+}
+
+.circle2 {
+  /* display: flex; */
+  margin-bottom: 27px;
+  width: 100% !important;
+  text-align: right;
+  /* position: relative; */
+}
+
+#circle2 {
+  /* position: absolute !important; */
+  margin-top: -5%;
+  width: 15%;
+  margin-right: 3%;
+}
+
+.clarity {
+  width: 16px;
+}
+
+/* footer {
+  
+} */
+.foot {
+  display: flex;
+  color: #1b1a20 !important;
+  font-family: Graphik !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.01em !important;
+  line-height: 140% !important;
+}
+
+.left-foot {
+  text-align: left !important;
+  width: 50%;
+}
+
+.right-foot {
+  text-align: right;
+  margin-left: 50%;
 }
