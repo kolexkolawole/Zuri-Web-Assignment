@@ -119,6 +119,7 @@ header a {
   display: flex;
   justify-content: center;
 }
+
 #enroll {
   background-color: #e7332b;
   padding: 10px 32px !important;
@@ -194,14 +195,47 @@ header a {
   padding-bottom: 40px !important;
   padding-top: 0 !important;
   text-align: right !important;
+  margin-bottom: -3%;
   /* width: 100%; */
 }
 .split {
   display: flex;
+  margin: auto 4%;
 }
 
+#why {
+  color: #e7332b !important;
+  font-family: Graphik, sans-serif;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 130% !important;
+}
+
+#here {
+  color: #1b1a20 !important;
+  font-family: Graphik, sans-serif !important;
+  font-size: 40px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 130% !important;
+  padding-right: 4%;
+}
+
+.why {
+  flex-basis: 58.3333%;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  max-width: 58.3333%;
+}
+
+.image {
+  display: flex;
+  margin-top: 50%;
+  justify-content: center;
+}
 #star {
-  /* width: 65%; */
+  width: 65%;
 }
 
 .partition {
@@ -333,4 +367,53 @@ header a {
 .right-foot {
   text-align: right;
   margin-left: 50%;
+}
+
+.section3 {
+  margin: 4% 1%;
+}
+
+.why-wire {
+  display: flex;
+}
+
+#why-img {
+  margin-left: 40%;
+}
+
+.frame {
+  display: block;
+  margin: 1% 4%;
+}
+
+.row1 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin: 1%;
+  width: 100%;
+}
+.row2 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin: 1%;
+  width: 100%;
+}
+
+.box1 {
+  background-color: #e7332b;
+  color: #fff;
+  margin: 2%;
+  /* max-width: 33.3333333%; */
+  width: 100%;
+}
+.box2 {
+  background-color: #fff;
+  color: black;
+  margin: 2%;
+  /* max-width: 33.3333333%; */
+  width: 100%;
+}
+
+.section5 {
+  background-color: #e7332b;
 }
