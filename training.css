@@ -12,6 +12,8 @@
 }
 
 header {
+  /* padding: 1% 0; */
+  background-color: rgb(255, 253, 245);
   padding-top: 15px;
   padding-bottom: 15px;
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
@@ -24,7 +26,9 @@ header {
   width: 100%;
   box-sizing: border-box;
   flex-shrink: 0;
-  position: fixed;
+  /* position: fixed; */
+  position: sticky;
+  /* position: fixed; */
   z-index: 1100;
   top: 0px;
   left: auto;
@@ -33,7 +37,8 @@ header {
 }
 
 #nav {
-  margin-left: 4%;
+  margin: 1% 4%;
+  display: flex;
 }
 
 .nav {
@@ -146,6 +151,7 @@ header a {
 }
 
 .section1 {
+  margin-top: -7%;
   margin-bottom: -10%;
 }
 
@@ -405,6 +411,9 @@ header a {
   margin: 2%;
   /* max-width: 33.3333333%; */
   width: 100%;
+  border: 2px;
+  box-shadow: 1px 1px 10px;
+  border-radius: 4px;
 }
 .box2 {
   background-color: #fff;
@@ -412,8 +421,12 @@ header a {
   margin: 2%;
   /* max-width: 33.3333333%; */
   width: 100%;
+  border: 2px;
+  box-shadow: 1px 1px 20px;
+  border-radius: 4%;
 }
 
 .section5 {
   background-color: #e7332b;
+  color: white;
 }
